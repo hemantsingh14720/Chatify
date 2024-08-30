@@ -1,0 +1,429 @@
+.homecontainer{
+    /* background-color: #AE445A; */
+    /* background-color: rgb(237, 200, 200); */
+    background-color: #d4d7e3 ;
+    width: 65%;
+    height: 80vh;
+    margin: auto;
+    display: flex;
+    border-radius: 2%;
+
+}
+
+.container{
+    padding-top: 5%;
+}
+.menucontainer{
+    /* background-color: #AE445A; */
+    /* background-color: #d9637b; */
+    /* background-color: yellow; */
+    /* margin-right: auto; */
+    height: 100%;
+    width: 40%;
+    border-right: 2px solid rgb(22, 21, 21);
+    /* height: max-content; */
+    /* text-align: center; */
+    overflow-y: scroll;
+    scrollbar-width: none;
+
+}
+.menucontainer::-webkit-scrollbar{
+    display: none;
+}
+.chatcontainer{
+    /* background-color: rgb(211, 246, 18); */
+    /* margin-left: auto; */
+    height: 100%;
+    width: 60%;
+    /* display: flex; */
+    /* background-color: aqua; */
+    display: none;
+}
+
+.homeinputcontainer{
+    text-align: center;
+    position: relative;
+
+}
+.homeinput{
+    width: 35%;
+    height: 35px;
+    margin: 10px auto;
+    border: none;
+    /* background-color: rgb(237, 200, 200); */
+    background-color: #c6d2ff;
+    border-radius: 5px ;
+    border-bottom: 5px solid rgb(15 15 38 / 69%);
+    /* color: #AE445A; */
+    /* color: black; */
+}
+.searchuserresult{
+    width: 35%;
+    height: fit-content;
+    margin: -12px 32.5%;
+    position: absolute;
+    background-color: rgb(237, 200, 200) ;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.searchuserdetail{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    margin: 5px;
+}
+.homeinput::placeholder{
+    /* color: #AE445A; */
+    text-align: center;
+}
+.homeinput:focus{
+    outline: none;
+    font-size: medium;
+    height: 40px;
+}
+
+h1{
+    color: white;
+}
+
+.chatmenu{
+    width: 100%;
+    height: 8vh;
+    /* background-color: yellow; */
+    /* background-color: #F39F5A; */
+    /* background-color: rgb(237, 200, 200); */
+    /* background-color: #AE445A; */
+    display: flex;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    cursor: pointer;
+    color: black;
+}
+.chatmenuavatar{
+    width: 23%;
+    height: 100%;
+}
+.chatmenuavatarimg{
+    border-radius: 50%;
+    width: 56%;
+    height: 80%;
+    margin: auto;
+    display: flex;
+    margin-top: 4px;
+}
+.chatmenupeople{
+    width: 77%;
+    height: 100%;
+    /* background-color: greenyellow; */
+}
+
+.chatmenupeoplename{
+    width: 100%;
+    height: 50%;
+    /* background-color: aliceblue; */
+    display: flex;
+    /* color: black; */
+    /* font-weight: 600; */
+    
+}
+
+.lastmessage{
+    width: 100%;
+    height: 50%;
+    /* background-color: aqua; */
+    text-align: left;
+    color: black;
+    /* font-weight: 600; */
+}
+.peoplename{
+    width: 75%;
+    height: 100%;
+    /* background-color: blue; */
+    text-align: left;
+    /* color: white; */
+    font-weight: 600;
+
+}
+.lastmsgdate{
+    width: 25%;
+    height: 100%;
+    /* background-color: blueviolet; */
+    text-align: left;
+    /* color: white; */
+}
+/* p{
+    margin-top: 2%;
+    margin-left: 2%;
+} */
+
+
+.chatbox{
+    width: 100%;
+    height: 80%;
+    /* background-color: aliceblue; */
+    /* background-color: rgb(237, 200, 200); */
+    display: flex;
+    overflow-y: scroll;
+
+    
+    /* margin-top: 1%; */
+}
+.chatbox::-webkit-scrollbar{
+    visibility: hidden;
+}
+.subchatcontainer{
+    width: 100%;
+    height: 100%;
+}
+.messageinput{
+    width: 70%;
+    /* height: 5vh; */
+    margin: 1%;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+}
+
+.messageinput:focus{
+    outline: none;
+}
+
+.messagebutton{
+    width: 16%;
+    /* height: 5vh; */
+    margin: 1%;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background-color: #481d25;
+    color: white;
+}
+.messagebutton:hover{
+    cursor: pointer;
+}
+
+.recievechat{
+    /* background-color: yellow; */
+    width: 100%;
+    /* background-color: yellowgreen; */
+    margin-top: 10px;
+}
+
+.sendchat{
+    /* background-color: green; */
+    width: 100%;
+    /* background-color: yellow; */
+    text-align: right;
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 10px;
+}
+.chatmessage{
+    width: 100%;
+    height: 100%;
+    margin: 1%;
+}
+.recievetext{
+    padding: 2%;
+    background-color: #c6d2ff;
+    border-radius: 5px;
+    width: max-content;
+    /* color: white; */
+}
+.sendtext{
+    padding: 2%;
+    background-color: #c6d2ff;
+    border-radius: 5px;
+    max-width: max-content;
+    /* color: white; */
+}
+
+.dotscontainer{
+    width: max-content;
+    height: 100%;
+    text-align: center;
+    position: relative;
+}
+
+.dotscontainermenu{
+    position: absolute;
+    background-color: white;
+    display: none;
+    width: 150px;
+    height: 150px;
+    border-radius: 5px;
+    border-bottom: 5px solid #F39F5A;
+}
+.dotscontainer:hover{
+    cursor: pointer;
+}
+.dotscontainermenuitems{
+    padding: 6px;
+    margin: 4px;
+}
+
+.dotscontainermenuitems:hover{
+    background-color: #F39F5A;
+}
+
+.sendrequestclass{
+    /* display: flex; */
+    margin: auto;
+    position: relative;
+    justify-content: space-around;
+    display: none;
+    
+}
+
+
+.sendrequestbutton{
+    height: 6vh;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(237, 200, 200);
+    /* background-color: #481d25; */
+    color: #481d25;
+    width: 100%;
+    padding: 5px;
+    margin: 1%;
+}
+
+.sendrequestbutton:active{
+    background-color: rgb(219, 169, 169);
+    transition: linear 1ms;
+}
+.sendrequestbutton{
+    cursor: pointer;
+}
+.sendrequestsubclass{
+    position: absolute;
+    width: 500px;
+    height: 8vh;
+    top: -75px;
+    /* left: -1%; */
+    background-color: rgb(225, 151, 151);
+    /* display: flex; */
+    margin: auto;
+    border-radius: 5px;
+    display: none;
+}
+.requesttext{
+    color: #481d25;
+    font-weight: bolder;
+    margin: 1%;
+    font-size: large;
+}
+.chatsrequestscategory{
+    display: flex;
+    height: 6vh;
+    border-radius: 5px;
+    padding: 4px;
+    margin: 3px;
+    /* background-color: #c77788; */
+    background-color: #c6d2ff;
+    border-top-left-radius: 10px;
+}
+
+.chatsrequestssubchatsclass{
+    display: flex;
+    width: 50%;
+    /* border-bottom: 5px solid #481d25; */
+    /* background-color: #ae4459b0; */
+    background-color: rgb(15 15 38 / 69%);
+    text-align: center;
+    font-size: x-large;
+    font-weight: bolder;
+    color: white;
+    border-radius: 5px;
+    overflow-x: scroll;
+    overflow-y: scroll;
+    /* background-color: #F39F5A; */
+}
+.chatsrequestssubchatsclass::-webkit-scrollbar{
+    display: none;
+}
+.chatsrequestssubchatsclass:hover{
+    cursor: pointer;
+}
+.chatsrequestssubrequestsclass{
+    display: flex;
+    /* border-bottom: 5px solid #481d25; */
+    width: 50%;
+    text-align: center;
+    text-align: center;
+    font-size: x-large;
+    font-weight: bolder;
+    /* color: white; */
+    color: #481d25;
+    overflow-x: scroll;
+    overflow-y: scroll;
+}
+.chatsrequestssubrequestsclass::-webkit-scrollbar{
+    display: none;
+}
+
+.chatsrequestssubrequestsclass:hover{
+    cursor: pointer;
+}
+.backarrow{
+    display: flex;
+    margin: auto;
+    display: none;
+}
+.backarrow:hover{
+    cursor: pointer;
+}
+@media screen and (max-width : 800px) {
+    .homecontainer{
+        width: 70%;
+    }
+    .chatcontainer{
+        display: none;
+    }
+    .menucontainer{
+        width: 100%;
+    }
+    .backarrow{
+        display: flex;
+    }
+}
+
+@media screen and (max-width : 500px) {
+    .homecontainer{
+        width: 100%;
+        /* display: block; */
+        /* margin: 0; */
+        /* padding: 0; */
+        height: 598px;
+        /* height: 688px; */
+        /* height: 100%; */
+    }
+    .container{
+        /* display: block; */
+        margin: 0;
+        padding: 0;
+    }
+    .menucontainer{
+        /* height: 97.5%; */
+        width: 100%;
+        height: 100%;
+    }
+    .homeinput{
+        width: 100%;
+        height: 50px;
+    }
+    .searchuserresult{
+        width: 100%;
+        margin: 0;
+    }
+    .chatcontainer{
+        /* height: 97.5%; */
+        display: none;
+        width: 100%;
+        height: 100%;
+    }
+    .backarrow{
+        display: flex;
+    }
+}
